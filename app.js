@@ -21,13 +21,15 @@
     
 // }
 
-// const iniHari ='Senin';
+const iniHari =prompt('Hari apa sekarang?').toLowerCase();
 
-// if (iniHari=== 'Senin') {
-//     console.log('Selamat Bekerja Kawan')
-// } else if(iniHari === 'Selasa'){
-//     console.log('Semoga Jangan Cepat Berlalu!')
-// }
+if (iniHari=== 'senin') {
+    console.log('Selamat Bekerja Kawan')
+} else if(iniHari === 'selasa'){
+    console.log('Semoga Jangan Cepat Berlalu!')
+}else{
+    console.log('Yah Biasa Aja');
+}
 
 // const nilai = '40';
 

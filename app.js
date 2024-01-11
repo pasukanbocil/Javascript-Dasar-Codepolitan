@@ -67,10 +67,22 @@
 //     console.log('Password tidak memenuhi syarat');
 // }
 
-const role = prompt('masukan role akun');
+// const role = prompt('masukan role akun');
 
-if (role != 'admin') {
-    console.log('akses ditolak');
-} else {
-    console.log('boleh mengaksesnya');
+// if (role != 'admin') {
+//     console.log('akses ditolak');
+// } else {
+//     console.log('boleh mengaksesnya');
+// }
+
+const balonku = prompt('masukan warna balon');
+switch (balonku) {
+    case 'merah':
+        console.log('warna merah');
+        break;
+    case 'hijau':
+        console.log('dorr');
+        break;
+    default:
+        console.log('bukan balon saya');
 }

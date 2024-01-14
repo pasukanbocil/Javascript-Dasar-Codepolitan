@@ -85,4 +85,5 @@ switch (balonku) {
         break;
     default:
         console.log('bukan balon saya');
+        
 }

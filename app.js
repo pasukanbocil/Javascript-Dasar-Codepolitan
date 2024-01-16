@@ -75,15 +75,143 @@
 //     console.log('boleh mengaksesnya');
 // }
 
-const balonku = prompt('masukan warna balon');
-switch (balonku) {
-    case 'merah':
-        console.log('warna merah');
-        break;
-    case 'hijau':
-        console.log('dorr');
-        break;
-    default:
-        console.log('bukan balon saya');
+// const balonku = prompt('masukan warna balon');
+// switch (balonku) {
+//     case 'merah':
+//         console.log('warna merah');
+//         break;
+//     case 'hijau':
+//         console.log('dorr');
+//         break;
+//     default:
+//         console.log('bukan balon saya');
         
+// }
+
+
+// for (let i = 0; i <= 10; i++) {
+//     console.log('Saya Dalam Looping');
+//     console.log(i);
+    
+// }
+// for (let i = 1; i <= 20; i +=2) {
+//     console.log(i);
+    
+// }
+
+// const animals = ['kucing', 'kelinci', 'kuda', 'sapi', 'kambing'];
+
+// for (let i = 0; i < animals.length; i++) {
+//     console.log(i + 1,animals[i]);
+    
+// }
+
+// const pilihan = 'abcd';
+
+// for (let i = 1; i <= 10; i++) {
+//     console.log(`${i}. Soal nomor ${i}:`);
+//     for (let j = 0; j < pilihan.length; j++) {
+//         console.log(`       ${pilihan[j]}. Pilihan Jawaban`);
+        
+//     }
+    
+// }
+
+
+// const studentRow = [
+//     ['Dicky','Meli','Rizky','Arya'],
+//     ['Rahmat','Rizal','Fakhri','Farhan'],
+//     ['Azman','Bang Jef','Tod','Yayan']
+// ];
+
+// for (let i = 0; i < studentRow.length; i++) {
+//     const row = studentRow[i];
+
+//     console.log(`Seat Row #${i+1}`);
+    
+//     for (let j = 0; j < row.length; j++) {
+//         console.log(row[j]);
+        
+//     }
+    
+// }
+
+// let num = 0;
+// while (num < 10) {
+//     console.log(num);
+//     num++;
+    
+// }
+
+// const PASSWORD = 'Pass1234';
+
+// let guess = prompt('Masukan Password');
+// while (guess !== PASSWORD) {
+//     guess = prompt('Masukan Password');
+    
+// }
+// alert('Password Benar');
+
+// let input = prompt('Hei,say something');
+// while (true) {
+//     input = prompt(input);
+//     if(input.toLowerCase() === 'stop')break;
+// }
+// alert('ok');
+
+// let maximum = parseInt(prompt("Masukan Angka Maximum!"));
+// while (!maximum) {
+//     maximum = parseInt(prompt("Masukan Angka Maximum!"));
+// }
+
+// const targetNum = Math.floor(Math.random() * maximum) + 1;
+// console.log(targetNum);
+
+// let guess = parseInt(prompt("Masukan Angka Tebakan!"));
+// let attempt = 1;
+
+// while (parseInt(guess) !== targetNum) {
+//     attempt++;
+//     if (guess > targetNum) {
+//         guess = parseInt(prompt("Terlalu Tinggi! Masukan Angka Tebakan!"));
+//     } else {
+//         guess = parseInt(prompt("Terlalu Rendah! Masukan Angka Tebakan!"));
+//     }
+    
+// }
+// alert(`Kamu Menang! Dengan ${attempt} Percobaan`);
+
+// const fruits = ['apel', 'mangga', 'jeruk', 'pisang', 'anggur'];
+
+// for(let fruit of fruits){
+//     console.log(`Buah ${fruit}`);
+    
+// }
+
+const studentScore = {
+    Dicky:90,
+    Meli:80,
+    Rizky:70,
+    Arya:60,
+    Farhan:50,
+    Fakhri:40,
+    Yayan:30,
+    Rahmat:20,
+    Rizal:10,
+    Azman:80
+
+};
+
+// for (let student in studentScore) {
+//     console.log(`${student} memiliki nilai ${studentScore[student]}`);
+    
+// }
+
+let total = 0;    
+let scores = Object.values(studentScore);
+
+for (let score of scores) {
+    total += score;
+    
 }
+console.log(total / scores.length);

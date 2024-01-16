@@ -188,30 +188,143 @@
     
 // }
 
-const studentScore = {
-    Dicky:90,
-    Meli:80,
-    Rizky:70,
-    Arya:60,
-    Farhan:50,
-    Fakhri:40,
-    Yayan:30,
-    Rahmat:20,
-    Rizal:10,
-    Azman:80
+// const studentScore = {
+//     Dicky:90,
+//     Meli:80,
+//     Rizky:70,
+//     Arya:60,
+//     Farhan:50,
+//     Fakhri:40,
+//     Yayan:30,
+//     Rahmat:20,
+//     Rizal:10,
+//     Azman:80
 
-};
+// };
 
 // for (let student in studentScore) {
 //     console.log(`${student} memiliki nilai ${studentScore[student]}`);
     
 // }
 
-let total = 0;    
-let scores = Object.values(studentScore);
+// let total = 0;    
+// let scores = Object.values(studentScore);
 
-for (let score of scores) {
-    total += score;
+// for (let score of scores) {
+//     total += score;
     
-}
-console.log(total / scores.length);
+// }
+// console.log(total / scores.length);
+
+// function nyanyi() {
+//     console.log('la la la');
+//     console.log('la la la');
+// }
+
+// nyanyi();
+
+// function getName(name)
+// {
+//     console.log(`Hello, ${name}`, 'Selamat Pagi');
+// }
+
+// getName('Meli');
+
+// function jumlah(a,b){
+    // const total = a + b;
+//     return total;
+//     console.log('tidak akan tereksekusi');
+// }
+
+// jumlah(3,4);
+
+// let programming = 'Javascript';
+
+// function typeSafe(){
+//    let programming = 'PHP';
+//     console.log(programming);
+// }
+
+// typeSafe();
+
+// console.log(programming);
+
+// function lamarKerja() {
+//     const jabatan = 'Frontend Developer';
+
+//     function interview() {
+//         console.log(`Saya melamar sebagai ${jabatan}`);
+        
+//     }
+
+//     interview();
+// }
+
+// function perpangkatan(nilai) {
+//     return nilai * nilai;
+// }
+
+// let hasil = perpangkatan(5);
+
+
+// function duaKali(func){
+//     func();
+//     func();
+// }
+
+// function lemparDadu(){
+//     const hasil = Math.floor(Math.random() * 6) + 1;
+//     console.log(hasil);
+// }
+
+// function hasilnyaAdalahFunction(){
+//     const rand = Math.random();
+//     if (rand > 0.1) {
+//         return function(){
+//             console.log('Selamat, angkanya lebih besar');
+//         };
+//     }else {
+//         return function(){
+//             console.log('Maaf, angkanya lebih kecil');
+//         }
+//     }
+// }
+
+// function myFun(){
+//     console.log('Hello');
+//     return 123;
+// }
+
+// const myMath = {
+//     perkalian: function(a,b){
+//         return a * b;
+//     },
+// };
+
+// const saya = {
+//     nama: 'Dicky',
+//     umur: 24,
+//     hobi: 'Mencintai Meli',
+
+//     kenalan: function(){
+//         console.log(`Halo, nama saya ${this.nama}, umur saya ${this.umur} tahun , dan hobi saya ${this.hobi}`);
+//     }
+// }
+
+// try {
+//     saya.Kenalan();
+// } catch (error) {
+//     console.log('Error');
+// }
+
+// // saya.kenalan();
+// console.log('Setelah Error');
+
+// function teriak(msg){
+//     try {
+//         console.log(msg.toUpperCase(). repeat(3));
+//     } catch (error) {
+//         console.log(error);
+//         console.log('Masukan String');
+//     }
+// }

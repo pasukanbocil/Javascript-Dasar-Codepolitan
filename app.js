@@ -465,3 +465,28 @@
 //     }
 
 // };
+
+// function lemparDadu(sisi = 6 ){
+//     return Math.floor(Math.random() * sisi) + 1;
+// }
+
+// const angka = [1,2,3,4,5,6,7,8,9,10];
+// const nama = ['Dicky', 'Meli', 'Rizky', 'Arya', 'Farhan', 'Fakhri', 'Yayan', 'Rahmat', 'Rizal', 'Azman'];
+
+// const campuran = [...angka,...nama];
+
+// const user = {
+//     name: 'Dicky',
+//     email: 'dicky@gmail'
+// };
+// const credetials = {
+//     password: '1234',
+// };
+
+// const userBaru ={
+//     ...user,
+//     name: 'Dicky',
+//    ...credetials
+// };
+
+

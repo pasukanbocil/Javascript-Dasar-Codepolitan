@@ -328,3 +328,140 @@
 //         console.log('Masukan String');
 //     }
 // }
+
+// const angka = [1,2,3,4,5,6,7,8,9,10];
+// const angkaDouble = angka.map(function(num){
+//     return num * 2;
+// });
+
+// angka.forEach(function(el){
+//     if (el % 2 === 0) {
+//         console.log(el);
+//     }
+// });
+
+// const anime = [
+//     {
+//         title: 'Naruto',
+//         rating: 100,
+//         year: 2000,
+//     },
+//     {
+//         title: 'One Piece',
+//         rating: 95,
+//         year: 1999,
+//     },
+//     {
+//         title: 'Dragon Ball',
+//         rating: 85,
+//         year: 1998,
+//     },
+//     {
+//         title: 'Bleach',
+//         rating: 80,
+//         year: 1997,
+//     },
+//     {
+//         title: 'Hunter X Hunter',
+//         rating: 70,
+//         year: 1996,
+//     },
+// ];
+// const isAnime = anime.some(function(anime){
+//     return anime.year < 2000;
+// });
+// const titles = anime.map(function(anime){
+//     return anime.title.toUpperCase();
+// });
+
+// anime.forEach(function(anime){
+//     console.log(`${anime.title} - ${anime.rating}/100`);
+// });
+
+// const perpangkatan = (x) => {
+// return x * x;
+// };
+
+// const random = () => (
+
+//     Math.floor(Math.random() * 10)
+// );
+
+// console.log('Halo');
+// setTimeout(()=>{
+//     console.log('Halo Lagi');
+// }, 5000);
+// console.log('Selamat Tinggal');
+
+// const interval = setInterval(()=>{
+//     console.log(Math.random());
+// }, 2000);
+
+// const angka = [1,3,5,7,9];
+// const angkaGanjil = angka.filter((n)=>{
+// return n % 2 === 1;
+// });
+
+// const animes = [
+//     {
+//         title: 'Naruto',
+//         rating: 100,
+
+//     },
+//     {
+//         title: 'One Piece',
+//         rating: 95,
+//     },
+//     {
+//         title: 'Dragon Ball',
+//         rating: 85,
+//     },
+//     {
+//         title: 'Bleach',
+//         rating: 80,
+//     },
+//     {
+//         title: 'Hunter X Hunter',
+//         rating: 70,
+//     },
+// ];
+
+// const bestAnime = animes.reduce((best, anime)=>{
+//     if (anime.rating > best.rating) {
+//         return anime;
+//     }
+//     return best;
+// });
+
+// const animeRating = animes.filter((anime)=>{
+//     return anime.rating >= 80;
+// });
+
+// const examScore = [80, 90, 70, 60, 50, 100];
+// const total = examScore.reduce((total, score)=>{
+//     return total + score;
+// });
+// let total = 0;
+// for (let score of examScore) {
+//     total += score;
+    
+// }
+// const isGoodScore = examScore.every((score)=>{
+//     return score >= 75;
+// });
+
+// const person = {
+//     'firstname': 'Dicky',
+//     'lastname': 'Meli',
+//     fullname: () => {
+//         console.log(this);
+//         return `${this['first name']} ${this['last name']}`;
+//     },
+//     panggilNanti: function(){
+//         setTimeout(()=>{
+//             console.log(this);
+//             // console.log($this.firstname);
+//         }, 3000);
+//     }
+
+// };
